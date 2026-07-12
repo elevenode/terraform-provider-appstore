@@ -74,7 +74,7 @@ jobs:
           cat > ~/.terraformrc << 'EOF'
           provider_installation {
             dev_overrides {
-              "fintreal/appstore" = "/home/runner/go/bin"
+              "elevenode/appstore" = "/home/runner/go/bin"
             }
           }
           EOF

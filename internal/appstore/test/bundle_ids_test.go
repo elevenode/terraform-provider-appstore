@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	openapi "github.com/fintreal/terraform-provider-appstore/internal/appstore"
+	openapi "github.com/elevenode/terraform-provider-appstore/internal/appstore"
 	"github.com/stretchr/testify/assert"
 )
 
@@ -25,7 +25,7 @@ func TestGetBundleId(t *testing.T) {
 }
 
 func TestCreateAndDeleteBundleId(t *testing.T) {
-	identifier := "com.fintreal.test." + GenerateRandomString()
+	identifier := "com.elevenode.test." + GenerateRandomString()
 	name := "Integration Test Bundle ID"
 	input := *openapi.NewBundleIdCreateRequest(
 		*openapi.NewBundleIdCreateRequestData(

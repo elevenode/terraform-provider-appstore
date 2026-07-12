@@ -6,7 +6,7 @@ import (
 	"os"
 	"testing"
 
-	openapi "github.com/fintreal/terraform-provider-appstore/internal/appstore"
+	openapi "github.com/elevenode/terraform-provider-appstore/internal/appstore"
 	"github.com/stretchr/testify/require"
 )
 
@@ -46,7 +46,7 @@ func GenerateRandomString() string {
 // fails the test immediately if creation does not succeed.
 func createBundleId(t *testing.T) *openapi.BundleIdResponse {
 	t.Helper()
-	identifier := "com.fintreal.test." + GenerateRandomString()
+	identifier := "com.elevenode.test." + GenerateRandomString()
 	input := *openapi.NewBundleIdCreateRequest(
 		*openapi.NewBundleIdCreateRequestData(
 			"bundleIds",

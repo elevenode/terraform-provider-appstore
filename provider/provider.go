@@ -3,11 +3,11 @@ package provider
 import (
 	"context"
 
-	appstore "github.com/fintreal/terraform-provider-appstore/internal/appstore"
-	"github.com/fintreal/terraform-provider-appstore/provider/bundleidentifier"
-	"github.com/fintreal/terraform-provider-appstore/provider/certificate"
-	"github.com/fintreal/terraform-provider-appstore/provider/device"
-	"github.com/fintreal/terraform-provider-appstore/provider/provisioningprofile"
+	appstore "github.com/elevenode/terraform-provider-appstore/internal/appstore"
+	"github.com/elevenode/terraform-provider-appstore/provider/bundleidentifier"
+	"github.com/elevenode/terraform-provider-appstore/provider/certificate"
+	"github.com/elevenode/terraform-provider-appstore/provider/device"
+	"github.com/elevenode/terraform-provider-appstore/provider/provisioningprofile"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/diag"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 )

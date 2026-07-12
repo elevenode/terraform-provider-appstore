@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	openapi "github.com/fintreal/terraform-provider-appstore/internal/appstore"
+	openapi "github.com/elevenode/terraform-provider-appstore/internal/appstore"
 	"github.com/stretchr/testify/assert"
 )
 

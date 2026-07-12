@@ -10,7 +10,7 @@ Add the following to your Terraform configuration:
 terraform {
   required_providers {
     appstore = {
-      source  = "fintreal/appstore"
+      source  = "elevenode/appstore"
     }
   }
 }

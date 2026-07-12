@@ -1,7 +1,7 @@
 package bundleidentifier
 
 import (
-	"github.com/fintreal/terraform-provider-appstore/provider/bundleidentifier/operations"
+	"github.com/elevenode/terraform-provider-appstore/provider/bundleidentifier/operations"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/validation"
 )

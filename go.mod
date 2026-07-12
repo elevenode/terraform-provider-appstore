@@ -1,4 +1,4 @@
-module github.com/fintreal/terraform-provider-appstore
+module github.com/elevenode/terraform-provider-appstore
 
 go 1.25.8
 

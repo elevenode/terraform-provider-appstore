@@ -15,7 +15,7 @@ description: |-
 terraform {
   required_providers {
     appstore = {
-      source  = "fintreal/appstore"
+      source  = "elevenode/appstore"
     }
   }
 }

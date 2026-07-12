@@ -1,7 +1,7 @@
 package device
 
 import (
-	"github.com/fintreal/terraform-provider-appstore/provider/device/operations"
+	"github.com/elevenode/terraform-provider-appstore/provider/device/operations"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/validation"
 )
