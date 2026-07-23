@@ -5,7 +5,7 @@ go 1.25.8
 require (
 	github.com/golang-jwt/jwt/v5 v5.3.1
 	github.com/hashicorp/terraform-plugin-sdk/v2 v2.40.1
-	github.com/stretchr/testify v1.10.0
+	github.com/stretchr/testify v1.11.1
 	gopkg.in/validator.v2 v2.0.1
 )
 
