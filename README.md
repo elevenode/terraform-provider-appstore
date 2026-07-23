@@ -1,6 +1,11 @@
 # Terraform Provider for App Store Connect
 
+[![Terraform Registry](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fregistry.terraform.io%2Fv1%2Fproviders%2Felevenode%2Fappstore&query=%24.version&label=terraform%20registry&color=7B42BC&logo=terraform)](https://registry.terraform.io/providers/elevenode/appstore/latest)
+[![License](https://img.shields.io/github/license/elevenode/terraform-provider-appstore)](./LICENSE)
+
 This Terraform provider enables you to manage App Store Connect resources using Infrastructure as Code. It provides resources for managing bundle identifiers and provisioning profiles in your Apple Developer account.
+
+Full documentation is on the [Terraform Registry](https://registry.terraform.io/providers/elevenode/appstore/latest/docs).
 
 ### Using Terraform Registry
 
@@ -136,3 +141,15 @@ resource "appstore_provisioning_profile" "example" {
 - SYSTEM_EXTENSION_INSTALL
 - USER_MANAGEMENT
 - APPLE_ID_AUTH
+
+## Contributing
+
+Issues and pull requests are welcome. Please open an issue to discuss significant changes before submitting a PR.
+
+## Security
+
+Please report vulnerabilities privately as described in [SECURITY.md](./SECURITY.md).
+
+## License
+
+Apache 2.0 — see [LICENSE](./LICENSE).
